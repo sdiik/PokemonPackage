@@ -1,5 +1,5 @@
 name: pokemon_package
-description: "A new Flutter package project."
+description: "Pokemon package is module to create pokemon app"
 version: 0.0.1
 homepage: https://github.com/sdiik/PokemonPackage.git
 
@@ -21,6 +21,10 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  uses-material-design: true
+  module:
+    androidPackage: com.example.module
+    iosBundleIdentifier: com.example.module
 
   # To add assets to your package, add an assets section, like this:
   # assets:
